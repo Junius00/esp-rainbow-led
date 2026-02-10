@@ -1,0 +1,15 @@
+# Build files
+build/
+
+# IDF files
+managed_components/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# Cache
+.cache/
+
+# Python
+.venv/
+__pycache__/

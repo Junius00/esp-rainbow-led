@@ -1,0 +1,8 @@
+CONFIG_APP_BUTTON_GPIO_NUM=0
+CONFIG_APP_LED_TYPE_WS2812=y
+#
+# Please Note:
+# ESP32-S3-DevKitC v1.1 uses GPIO38 for the on-board LED
+# ESP32-S3-DevKitC v1.0 uses GPIO48 for the on-board LED
+#
+CONFIG_APP_LED_WS2812_GPIO_NUM=48

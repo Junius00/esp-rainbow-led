@@ -1,0 +1,15 @@
+menu "Rainbow LED Configuration"
+
+    config RAINBOW_LED_TASK_STACK_SIZE
+        int "Task stack size"
+        default 2048
+        help
+            The stack size of the task used to change the LED parameters.
+    
+    config RAINBOW_LED_TASK_PRIORITY
+        int "Task priority"
+        default 1
+        help
+            The priority of the task used to change the LED parameters.
+
+endmenu

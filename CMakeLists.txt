@@ -1,0 +1,5 @@
+set(RAINBOW_LED_SRCS "${CMAKE_CURRENT_LIST_DIR}/src/rainbow_led.c")
+set(RAINBOW_LED_INCLUDE_DIRS "${CMAKE_CURRENT_LIST_DIR}/include")
+
+idf_component_register(SRCS ${RAINBOW_LED_SRCS}
+                    INCLUDE_DIRS ${RAINBOW_LED_INCLUDE_DIRS})

@@ -1,0 +1,6 @@
+version: 1.0.0
+description: Rainbow LED cycling
+dependencies:
+  junius-pun/app_led: ^1.0.0
+  junius-pun/app_button: ^1.0.0
+url: https://github.com/Junius00/esp-rainbow-led
