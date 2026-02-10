@@ -6,7 +6,7 @@ This is an implementation of a rainbow LED with speed and brightness control. Th
 
 ## Example
 
-An example project is included under [`example`](./example).
+An example project is included under [`examples`](./examples/get_started).
 
 ## Configuration
 
